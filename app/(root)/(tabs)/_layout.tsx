@@ -51,7 +51,7 @@ const Layout = () => (
       name="home"
       options={{
         title: "Home",
-        // headerShown: false,
+        headerShown: false,
         tabBarIcon: ({ focused }) => (
           <TabIcon focused={focused} source={icons.home} />
         ),
@@ -61,7 +61,7 @@ const Layout = () => (
       name="rides"
       options={{
         title: "Rides",
-        // headerShown: false,
+        headerShown: false,
         tabBarIcon: ({ focused }) => (
           <TabIcon focused={focused} source={icons.list} />
         ),
