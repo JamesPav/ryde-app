@@ -1,5 +1,4 @@
 import { Driver, MarkerData } from "@/types/type";
-import Constants from "expo-constants";
 
 const directionsAPI = process.env.EXPO_PUBLIC_GOOGLE_API_KEY;
 
