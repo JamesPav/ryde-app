@@ -11,7 +11,7 @@ npm-debug.*
 web-build/
 
 # local env files
-.env
+.env*
 .env*.local
 
 # macOS
