@@ -130,7 +130,11 @@ export default function Page() {
   const { signOut } = useAuth();
 
   const { user } = useUser();
-  const { data: recentRides, loading } = useFetch(`/(api)/ride/${user?.id}`);
+  const {
+    data: recentRides,
+    loading,
+    error,
+  } = useFetch(`/(api)/ride/${user?.id}`);
 
   const [hasPermissions, setHasPermissions] = useState(false);
 

@@ -37,7 +37,7 @@ const SignIn = () => {
     } catch (err: any) {
       Alert.alert("Error", err.errors[0].longMessage);
     }
-  }, [isLoaded, form.email, form.password]);
+  }, [isLoaded, form.email, form.password, router, setActive, signIn]);
 
   return (
     <ScrollView className="flex-1 bg-white">

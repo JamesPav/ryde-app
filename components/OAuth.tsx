@@ -22,7 +22,7 @@ const OAuth = () => {
     } catch (err) {
       console.error("OAuth error", err);
     }
-  }, []);
+  }, [startOAuthFlow]);
   return (
     <View>
       <View className="flex flex-row justify-center items-center mt-4 gap-x-3">
